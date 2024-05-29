@@ -5,11 +5,16 @@
     --branco: #FFFFFF;
     --fundo: #EBECEE;
     --azul-degrade: linear-gradient(0deg, #002F52 0%, #002F52 100%);
+
+    --fonte-primaria: normal 400 16px "Poppins", sans-serif;
+    --fonte-primaria-medium: normal 500 16px "Poppins", sans-serif;
+    --fonte-primaria-bold: normal 700 16px "Poppins", sans-serif;
 }
 
 body {
     color: var(--branco);
     background-color: var(--fundo);
+    font: var(--fonte-primaria);
 }
 
 .cabecalho {
