@@ -1,9 +1,14 @@
+
+@import url(styles/banner.css);
+
 :root {
     --branco: #FFFFFF;
     --fundo: #EBECEE;
+    --azul-degrade: linear-gradient(0deg, #002F52 0%, #002F52 100%);
 }
 
 body {
+    color: var(--branco);
     background-color: var(--fundo);
 }
 
