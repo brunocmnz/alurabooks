@@ -1,0 +1,38 @@
+:root {
+    --branco: #FFFFFF;
+    --fundo: #EBECEE;
+}
+
+body {
+    background-color: var(--fundo);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--branco);
+    padding: .5em;
+}
+
+.cabecalho__menu {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.cabecalho__lista {
+    display: flex;
+    align-items: center;
+}
+
+.lista__item{
+    padding: .5em;
+}
+
+.menu__hamburguer {
+    display: none;
+}
+
+.menu__hamburguer:checked ~ .icone-menu{
+    background-color: black;
+}
