@@ -1,0 +1,83 @@
+
+.card{
+    padding: 1rem;
+    padding-top: 0;
+    margin: .5em;
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 1em;
+    padding-top: 1rem;
+    box-shadow: 0 4 4 0 black;
+}
+
+.card__titulo,
+.card__subtitulo,
+.card__botao{
+    font: var(--fonte-primaria-bold);
+}
+
+.card__info{
+    display: flex;
+    gap: 1rem;
+}
+
+.card__descricao{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.card__subtitulo{
+    color: var(--laranja);
+    width: 120%;
+}
+
+.card__titulo{
+    margin: .5em 0;
+    font-size: 18px;
+
+    /* Cor de fundo com gradiente */
+    background: var(--azul-degrade);
+  
+    /* Cor do texto transparente */
+    color: transparent;
+  
+    /* Aplicar o background-clip ao texto */
+    -webkit-background-clip: text;
+    background-clip: text;
+  
+    /* Evitar que o background se repita */
+    background-size: 100%;
+}
+
+.card__texto{
+    color: var(--preto);
+    font-size: 14px;
+    padding-right: 2em;
+}
+
+.card__img{
+    width: 188px;
+    height: 188px;
+}
+
+.botoes__icones{
+}
+
+.card__botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.card__botao{
+    text-decoration: none;
+    background-color: var(--laranja);
+    color: var(--branco);
+    padding: 1em;
+}
+
+  
